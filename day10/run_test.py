@@ -1,5 +1,5 @@
 import pytest
-from run import Joltage
+from .run import Joltage
 
 def test_joltage():
     joltage = Joltage('input_test.txt')

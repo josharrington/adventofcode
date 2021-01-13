@@ -1,5 +1,5 @@
 import pytest
-from run import Debugger
+from .run import Debugger
 
 def test_debugger():
     d = Debugger('debugger_test.txt', preamble=5)
