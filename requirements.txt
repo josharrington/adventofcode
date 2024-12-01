@@ -1,2 +1,3 @@
-pytest==6.2.1
-rope==0.18.0
+pytest
+black
+rope

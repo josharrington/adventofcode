@@ -2,10 +2,8 @@ import os
 from functools import lru_cache
 
 class MyClass():
-    lines = []
-
     def __init__(self, file: str):
-        self.lines = open(f'{os.path.dirname(__file__)}/{file}', 'r').read().splitlines()
+        self.lines = open(file, 'r').read().splitlines()
 
     def part1(self):
         pass
